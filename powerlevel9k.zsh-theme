@@ -1151,7 +1151,7 @@ prompt_vcs() {
   current_state=""
 
   # Actually invoke vcs_info manually to gather all information.
-  vcs_info
+##vcs_info
   local vcs_prompt="${vcs_info_msg_0_}"
 
   if [[ -n "$vcs_prompt" ]]; then
